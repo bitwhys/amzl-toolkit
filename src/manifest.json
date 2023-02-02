@@ -1,0 +1,17 @@
+{
+  "name": "AMZL Toolkit",
+  "manifest_version": 2,
+  "author": "George Bockari <bockarig@amzon.com>",
+  "version": "0.0.1",
+  "icons": {
+    "128": "./assets/icon.png"
+  },
+  "background": { "scripts": ["background/index.js"] },
+  "content_scripts": [
+    {
+      "js": ["content/index.js"],
+      "matches": ["https://*/*", "http://*/*"]
+    }
+  ],
+  "browser_action": { "default_popup": "popup/index.html" }
+}
