@@ -73,6 +73,7 @@
       </div>
     </div>
   </div>
+  <!--  Search -->
   <div class="mt-12 pb-4 border-b border-slate-7">
     <label for="name" class="ml-px block pl-2 text-sm font-medium text-slate-11"> Search Links </label>
     <div class="mt-1">
@@ -80,11 +81,12 @@
         type="text"
         name="name"
         id="name"
-        class="block w-full rounded-full border-slate-7 bg-slate-2 text-slate-12 px-4 focus:border-cyan-600 focus:ring-cyan-600 sm:text-sm"
+        class="block w-full rounded-lg border-slate-7 bg-slate-2 text-slate-12 px-4 focus:border-cyan-600 focus:ring-cyan-600 sm:text-sm"
         placeholder="search"
       />
     </div>
   </div>
+  <!--  Essential Tools Tabs -->
   <div class="mt-7">
     <div class="pb-1 flex items-center gap-x-2">
       <span class="mb-2 text-sm text-slate-12 border-b-2 border-orange-500">Essential</span><span
